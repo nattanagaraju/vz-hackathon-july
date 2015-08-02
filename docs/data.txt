@@ -11,3 +11,10 @@ http://travis-encrypt.github.io/
         </init-param>
         
     </filter>
+    
+    
+    
+    
+    REPORT: 02/08/2015 03:35:36.147: requst-id-1438511734943-0.016456433721316444: /traversepathweb: TPath-TraversePathWeb{TPath-GetUserDetailsSvc{TUserService.getUser~SUCCESS~0000~892~/tuserservice}TPath-MySQLDAO{MySQLDAO.executeQuery~SUCCESS~0000~793~/tuserservice}{LogParams: {responseresult={result=[], queryExecutionStatus=success, query=select * from users where email='null', connectionStatus=Connection Retrieved successfully, columnList=[userid, l_name, f_name, email, city], message=com.mysql.jdbc.JDBC4ResultSet@7bfafd4b: Query executed successfully...}}}TPathWeb.getUserDetails~SUCCESS~0000~1202~/traversepathweb}
+
+REPORT: 02/08/2015 03:42:10.922: requst-id-1438512130873-0.1450346990957584: /traversepathweb: TPath-TraversePathWeb{TPath-GetUserDetailsSvc{TUserService.getUser~SUCCESS~0000~34~/tuserservice}TPath-MySQLDAO{MySQLDAO.executeQuery~SUCCESS~0000~34~/tuserservice}{LogParams: {responseresult={result=[], queryExecutionStatus=success, query=select * from users where email='null', connectionStatus=Connection Retrieved successfully, columnList=[userid, l_name, f_name, email, city], message=com.mysql.jdbc.JDBC4ResultSet@d617dc4: Query executed successfully...}}}TPathWeb.getUserDetails~SUCCESS~0000~47~/traversepathweb}
