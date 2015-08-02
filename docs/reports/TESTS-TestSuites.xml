@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="scsbwin-87270" id="0" name="TPathWebTest_Test" package="org.hack" skipped="0" tests="2" time="1.276" timestamp="2015-08-02T20:35:23">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="eclipse.pdebuild.templates" value="/D:/N&amp;TPC-Team1/softwares/eclipse-jee-mars-R-win32-x86_64/eclipse/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/templates/" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="dist" value="build/dist" />
+
+          <property name="os.name" value="Windows Server 2012 R2" />
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_76\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_76\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_76\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_76\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_76\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_76\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_76\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_76\jre\classes" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="D:\N&amp;TPC-Team1\softwares\eclipse-jee-mars-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.4.v201504302020" />
+
+          <property name="java.runtime.version" value="1.7.0_76-b13" />
+
+          <property name="resources" value="src/main/resources" />
+
+          <property name="user.name" value="Administrator" />
+
+          <property name="user.language" value="en" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_76\jre\bin" />
+
+          <property name="ant.project.default-target" value="build-war" />
+
+          <property name="ant.project.name" value="TraversePath" />
+
+          <property name="java.version" value="1.7.0_76" />
+
+          <property name="classes" value="build/classes" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="webdir" value="WebContent/WEB-INF" />
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_76\jre\lib\endorsed" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="web" value="WebContent" />
+
+          <property name="java.class.version" value="51.0" />
+
+          <property name="src" value="src" />
+
+          <property name="user.country" value="US" />
+
+          <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_76\jre" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="C:\Users\Administrator\git\TraversePath\build.xml" />
+
+          <property name="os.version" value="6.3" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="24.76-b04" />
+
+          <property name="user.variant" value="" />
+
+          <property name="ant.library.dir" value="D:\N&amp;TPC-Team1\softwares\eclipse-jee-mars-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib" />
+
+          <property name="ant.file.TraversePath" value="C:\Users\Administrator\git\TraversePath\build.xml" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="ant.file.type.TraversePath" value="file" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="user.script" value="" />
+
+          <property name="eclipse.pdebuild.scripts" value="/D:/N&amp;TPC-Team1/softwares/eclipse-jee-mars-R-win32-x86_64/eclipse/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/scripts/" />
+
+          <property name="user.home" value="C:\Users\Administrator" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="java.library.path" value="D:\N&amp;TPC-Team1\softwares\eclipse-jee-mars-R-win32-x86_64\eclipse;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_51/bin/server;C:/Program Files/Java/jre1.8.0_51/bin;C:/Program Files/Java/jre1.8.0_51/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_51\bin;;D:\N&amp;TPC-Team1\softwares\eclipse-jee-mars-R-win32-x86_64\eclipse;;.;D:\N&amp;TPC-Team1\softwares\eclipse-jee-mars-R-win32-x86_64\eclipse\configuration\org.eclipse.osgi\747\0\.cp" />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="sun.java.command" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner -Dorg.eclipse.ant.core.ANT_PROCESS_ID=1438547719365 -Declipse.connect.port=52045 -Declipse.pdebuild.home=/D:/N&amp;TPC-Team1/softwares/eclipse-jee-mars-R-win32-x86_64/eclipse/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/./ -Declipse.pdebuild.scripts=/D:/N&amp;TPC-Team1/softwares/eclipse-jee-mars-R-win32-x86_64/eclipse/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/scripts/ -Declipse.pdebuild.templates=/D:/N&amp;TPC-Team1/softwares/eclipse-jee-mars-R-win32-x86_64/eclipse/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/templates/ -Dant.home=D:\N&amp;TPC-Team1\softwares\eclipse-jee-mars-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.4.v201504302020 -logger org.eclipse.ant.internal.launching.remote.logger.RemoteAntBuildLogger -inputhandler org.eclipse.ant.internal.ui.antsupport.inputhandler.ProxyInputHandler -buildfile C:\Users\Administrator\git\TraversePath\build.xml" />
+
+          <property name="java.class.path" value="D:\N&amp;TPC-Team1\softwares\eclipse-jee-mars-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-antlr.jar;D:\N&amp;TPC-Team1\softwares\eclipse-jee-mars-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-apache-bcel.jar;D:\N&amp;TPC-Team1\softwares\eclipse-jee-mars-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-apache-bsf.jar;D:\N&amp;TPC-Team1\softwares\eclipse-jee-mars-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-apache-log4j.jar;D:\N&amp;TPC-Team1\softwares\eclipse-jee-mars-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-apache-oro.jar;D:\N&amp;TPC-Team1\softwares\eclipse-jee-mars-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-apache-regexp.jar;D:\N&amp;TPC-Team1\softwares\eclipse-jee-mars-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-apache-resolver.jar;D:\N&amp;TPC-Team1\softwares\eclipse-jee-mars-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-apache-xalan2.jar;D:\N&amp;TPC-Team1\softwares\eclipse-jee-mars-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-commons-logging.jar;D:\N&amp;TPC-Team1\softwares\eclipse-jee-mars-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-commons-net.jar;D:\N&amp;TPC-Team1\softwares\eclipse-jee-mars-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-jai.jar;D:\N&amp;TPC-Team1\softwares\eclipse-jee-mars-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-javamail.jar;D:\N&amp;TPC-Team1\softwares\eclipse-jee-mars-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-jdepend.jar;D:\N&amp;TPC-Team1\softwares\eclipse-jee-mars-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-jmf.jar;D:\N&amp;TPC-Team1\softwares\eclipse-jee-mars-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-jsch.jar;D:\N&amp;TPC-Team1\softwares\eclipse-jee-mars-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-junit.jar;D:\N&amp;TPC-Team1\softwares\eclipse-jee-mars-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-junit4.jar;D:\N&amp;TPC-Team1\softwares\eclipse-jee-mars-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-launcher.jar;D:\N&amp;TPC-Team1\softwares\eclipse-jee-mars-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-netrexx.jar;D:\N&amp;TPC-Team1\softwares\eclipse-jee-mars-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-swing.jar;D:\N&amp;TPC-Team1\softwares\eclipse-jee-mars-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-testutil.jar;D:\N&amp;TPC-Team1\softwares\eclipse-jee-mars-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant.jar;D:\N&amp;TPC-Team1\softwares\eclipse-jee-mars-R-win32-x86_64\eclipse\configuration\org.eclipse.osgi\79\0\.cp\lib\antdebug.jar;D:\N&amp;TPC-Team1\softwares\eclipse-jee-mars-R-win32-x86_64\eclipse\configuration\org.eclipse.osgi\79\0\.cp\lib\remote.jar;D:\N&amp;TPC-Team1\softwares\eclipse-jee-mars-R-win32-x86_64\eclipse\configuration\org.eclipse.osgi\80\0\.cp\lib\remoteAnt.jar;C:\Program Files\Java\jdk1.7.0_76\lib\tools.jar;D:\N&amp;TPC-Team1\softwares\eclipse-jee-mars-R-win32-x86_64\eclipse\plugins\org.eclipse.swt.win32.win32.x86_64_3.104.0.v20150528-0211.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.9.4 compiled on April 29 2014" />
+
+          <property name="app.name" value="TraversePathWeb" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="java.vm.specification.version" value="1.7" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="eclipse.pdebuild.home" value="/D:/N&amp;TPC-Team1/softwares/eclipse-jee-mars-R-win32-x86_64/eclipse/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/./" />
+
+          <property name="java.io.tmpdir" value="C:\Users\ADMINI~1\AppData\Local\Temp\2\" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_76\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+
+          <property name="user.dir" value="C:\Users\Administrator\git\TraversePath" />
+
+          <property name="traversepath.jar" value="build/dist/traversepath.jar" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="basedir" value="C:\Users\Administrator\git\TraversePath" />
+
+          <property name="ant.java.version" value="1.7" />
+
+          <property name="ant.core.lib" value="D:\N&amp;TPC-Team1\softwares\eclipse-jee-mars-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant.jar" />
+
+          <property name="file.encoding" value="UTF-8" />
+
+          <property name="java.specification.version" value="1.7" />
+
+          <property name="ant.project.invoked-targets" value="build-war" />
+
+      </properties>
+
+      <testcase classname="org.hack.TPathWebTest_Test" name="testGetUserDetails" time="1.154" />
+
+      <testcase classname="org.hack.TPathWebTest_Test" name="testGetPage" time="0.007" />
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[
+INFO: 02/08/2015 01:35:24.876: null: null: TPathWeb.getUserDetails: Entry
+
+INFO: 02/08/2015 01:35:24.898: null: null: TPathWeb.getSvcResp: Entry
+java.lang.NullPointerException
+	at java.util.Properties$LineReader.readLine(Properties.java:434)
+	at java.util.Properties.load0(Properties.java:353)
+	at java.util.Properties.load(Properties.java:341)
+	at org.hack.util.AppProperties.<clinit>(AppProperties.java:9)
+	at org.hack.TPathWeb.getSvcResp(TPathWeb.java:72)
+	at org.hack.TPathWeb.getUserDetails(TPathWeb.java:47)
+	at org.hack.TPathWebTest_Test.testGetUserDetails(TPathWebTest_Test.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.internal.runners.TestMethod.invoke(TestMethod.java:68)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$PowerMockJUnit44MethodRunner.runTestMethod(PowerMockJUnit44RunnerDelegateImpl.java:310)
+	at org.junit.internal.runners.MethodRoadie$2.run(MethodRoadie.java:89)
+	at org.junit.internal.runners.MethodRoadie.runBeforesThenTestThenAfters(MethodRoadie.java:97)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$PowerMockJUnit44MethodRunner.executeTest(PowerMockJUnit44RunnerDelegateImpl.java:294)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit47RunnerDelegateImpl$PowerMockJUnit47MethodRunner.executeTestInSuper(PowerMockJUnit47RunnerDelegateImpl.java:127)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit47RunnerDelegateImpl$PowerMockJUnit47MethodRunner.executeTest(PowerMockJUnit47RunnerDelegateImpl.java:82)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$PowerMockJUnit44MethodRunner.runBeforesThenTestThenAfters(PowerMockJUnit44RunnerDelegateImpl.java:282)
+	at org.junit.internal.runners.MethodRoadie.runTest(MethodRoadie.java:87)
+	at org.junit.internal.runners.MethodRoadie.run(MethodRoadie.java:50)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl.invokeTestMethod(PowerMockJUnit44RunnerDelegateImpl.java:207)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl.runMethods(PowerMockJUnit44RunnerDelegateImpl.java:146)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$1.run(PowerMockJUnit44RunnerDelegateImpl.java:120)
+	at org.junit.internal.runners.ClassRoadie.runUnprotected(ClassRoadie.java:34)
+	at org.junit.internal.runners.ClassRoadie.runProtected(ClassRoadie.java:44)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl.run(PowerMockJUnit44RunnerDelegateImpl.java:122)
+	at org.powermock.modules.junit4.common.internal.impl.JUnit4TestSuiteChunkerImpl.run(JUnit4TestSuiteChunkerImpl.java:106)
+	at org.powermock.modules.junit4.common.internal.impl.AbstractCommonPowerMockRunner.run(AbstractCommonPowerMockRunner.java:53)
+	at org.powermock.modules.junit4.PowerMockRunner.run(PowerMockRunner.java:59)
+	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:38)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:532)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.executeInVM(JUnitTask.java:1614)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.execute(JUnitTask.java:1019)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.executeOrQueue(JUnitTask.java:2095)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.execute(JUnitTask.java:828)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:292)
+	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+	at org.apache.tools.ant.Task.perform(Task.java:348)
+	at org.apache.tools.ant.Target.execute(Target.java:435)
+	at org.apache.tools.ant.Target.performTasks(Target.java:456)
+	at org.apache.tools.ant.Project.executeSortedTargets(Project.java:1393)
+	at org.apache.tools.ant.Project.executeTarget(Project.java:1364)
+	at org.apache.tools.ant.helper.DefaultExecutor.executeTargets(DefaultExecutor.java:41)
+	at org.eclipse.ant.internal.launching.remote.EclipseDefaultExecutor.executeTargets(EclipseDefaultExecutor.java:36)
+	at org.apache.tools.ant.Project.executeTargets(Project.java:1248)
+	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.run(InternalAntRunner.java:453)
+	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.main(InternalAntRunner.java:140)
+
+INFO: 02/08/2015 01:35:24.910: null: null: TPathWeb.getSvcResp: URL Invoking: null?email=raju@yahoo.com
+java.net.MalformedURLException: no protocol: null?email=raju@yahoo.com
+	at java.net.URL.<init>(URL.java:585)
+	at java.net.URL.<init>(URL.java:482)
+	at java.net.URL.<init>(URL.java:431)
+	at org.hack.TPathWeb.getSvcResp(TPathWeb.java:76)
+	at org.hack.TPathWeb.getUserDetails(TPathWeb.java:47)
+	at org.hack.TPathWebTest_Test.testGetUserDetails(TPathWebTest_Test.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.internal.runners.TestMethod.invoke(TestMethod.java:68)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$PowerMockJUnit44MethodRunner.runTestMethod(PowerMockJUnit44RunnerDelegateImpl.java:310)
+	at org.junit.internal.runners.MethodRoadie$2.run(MethodRoadie.java:89)
+	at org.junit.internal.runners.MethodRoadie.runBeforesThenTestThenAfters(MethodRoadie.java:97)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$PowerMockJUnit44MethodRunner.executeTest(PowerMockJUnit44RunnerDelegateImpl.java:294)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit47RunnerDelegateImpl$PowerMockJUnit47MethodRunner.executeTestInSuper(PowerMockJUnit47RunnerDelegateImpl.java:127)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit47RunnerDelegateImpl$PowerMockJUnit47MethodRunner.executeTest(PowerMockJUnit47RunnerDelegateImpl.java:82)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$PowerMockJUnit44MethodRunner.runBeforesThenTestThenAfters(PowerMockJUnit44RunnerDelegateImpl.java:282)
+	at org.junit.internal.runners.MethodRoadie.runTest(MethodRoadie.java:87)
+	at org.junit.internal.runners.MethodRoadie.run(MethodRoadie.java:50)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl.invokeTestMethod(PowerMockJUnit44RunnerDelegateImpl.java:207)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl.runMethods(PowerMockJUnit44RunnerDelegateImpl.java:146)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$1.run(PowerMockJUnit44RunnerDelegateImpl.java:120)
+	at org.junit.internal.runners.ClassRoadie.runUnprotected(ClassRoadie.java:34)
+	at org.junit.internal.runners.ClassRoadie.runProtected(ClassRoadie.java:44)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl.run(PowerMockJUnit44RunnerDelegateImpl.java:122)
+	at org.powermock.modules.junit4.common.internal.impl.JUnit4TestSuiteChunkerImpl.run(JUnit4TestSuiteChunkerImpl.java:106)
+	at org.powermock.modules.junit4.common.internal.impl.AbstractCommonPowerMockRunner.run(AbstractCommonPowerMockRunner.java:53)
+	at org.powermock.modules.junit4.PowerMockRunner.run(PowerMockRunner.java:59)
+	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:38)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:532)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.executeInVM(JUnitTask.java:1614)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.execute(JUnitTask.java:1019)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.executeOrQueue(JUnitTask.java:2095)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.execute(JUnitTask.java:828)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:292)
+	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+	at org.apache.tools.ant.Task.perform(Task.java:348)
+	at org.apache.tools.ant.Target.execute(Target.java:435)
+	at org.apache.tools.ant.Target.performTasks(Target.java:456)
+	at org.apache.tools.ant.Project.executeSortedTargets(Project.java:1393)
+	at org.apache.tools.ant.Project.executeTarget(Project.java:1364)
+	at org.apache.tools.ant.helper.DefaultExecutor.executeTargets(DefaultExecutor.java:41)
+	at org.eclipse.ant.internal.launching.remote.EclipseDefaultExecutor.executeTargets(EclipseDefaultExecutor.java:36)
+	at org.apache.tools.ant.Project.executeTargets(Project.java:1248)
+	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.run(InternalAntRunner.java:453)
+	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.main(InternalAntRunner.java:140)
+
+ERROR: 02/08/2015 01:35:24.920: null: null: TPathWeb.getUserDetails: no protocol: null?email=raju@yahoo.com
+
+INFO: 02/08/2015 01:35:24.937: null: null: TPathWeb.getUserDetails: Response: null
+
+INFO: 02/08/2015 01:35:24.943: null: null: TPathWeb.getUserDetails: Exit
+
+INFO: 02/08/2015 01:35:24.974: null: null: TPathWeb.getPage: Entry & Exit
+]]></system-err>
+
+  </testsuite>
+</testsuites>
