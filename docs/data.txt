@@ -18,3 +18,24 @@ http://travis-encrypt.github.io/
     REPORT: 02/08/2015 03:35:36.147: requst-id-1438511734943-0.016456433721316444: /traversepathweb: TPath-TraversePathWeb{TPath-GetUserDetailsSvc{TUserService.getUser~SUCCESS~0000~892~/tuserservice}TPath-MySQLDAO{MySQLDAO.executeQuery~SUCCESS~0000~793~/tuserservice}{LogParams: {responseresult={result=[], queryExecutionStatus=success, query=select * from users where email='null', connectionStatus=Connection Retrieved successfully, columnList=[userid, l_name, f_name, email, city], message=com.mysql.jdbc.JDBC4ResultSet@7bfafd4b: Query executed successfully...}}}TPathWeb.getUserDetails~SUCCESS~0000~1202~/traversepathweb}
 
 REPORT: 02/08/2015 03:42:10.922: requst-id-1438512130873-0.1450346990957584: /traversepathweb: TPath-TraversePathWeb{TPath-GetUserDetailsSvc{TUserService.getUser~SUCCESS~0000~34~/tuserservice}TPath-MySQLDAO{MySQLDAO.executeQuery~SUCCESS~0000~34~/tuserservice}{LogParams: {responseresult={result=[], queryExecutionStatus=success, query=select * from users where email='null', connectionStatus=Connection Retrieved successfully, columnList=[userid, l_name, f_name, email, city], message=com.mysql.jdbc.JDBC4ResultSet@d617dc4: Query executed successfully...}}}TPathWeb.getUserDetails~SUCCESS~0000~47~/traversepathweb}
+
+
+ 
+http://tuserservice.cfapps.io/db
+http://traversepathweb.cfapps.io/tweb 
+ 
+cf logs TUserService
+ 2015-08-02T07:51:53.12-0700 [App/0]      ERR REPORT: 02/08/2015 02:51:53.121: requst-id-1438527112847-0.6558462886942875: : {TPath-DBQueryExecutor{DBService.submitQuery~SUCCESS~0000~271~{TPath-MySQLDAO{MySQLDAO.executeQuery~SUCCESS~0000~269~}}}}{LogParams: {result=[{Tables_in_ad_4da09c6f1711355=users}], queryExecutionStatus=success, query=show tables;, connectionStatus=Connection Retrieved successfully, columnList=[Tables_in_ad_4da09c6f1711355], message=com.mysql.jdbc.JDBC4ResultSet@4a58553b: Query executed successfully...}}
+ REPORT: 02/08/2015 03:13:46.970: requst-id-1438528426935-0.6597215425663784: : {TPath-GetUserDetailsSvc{TUserService.getUser~SUCCESS~0000~19~{TPath-MySQLDAO{MySQLDAO.executeQuery~SUCCESS~0000~19~}}}}{LogParams: {responseresult={result=[{city=hyd, name=raju, userid=1, email=raju@yahoo.com}], queryExecutionStatus=success, query=select * from users where email='raju@yahoo.com', connectionStatus=Connection Retrieved successfully, columnList=[userid, name, email, city], message=com.mysql.jdbc.JDBC4ResultSet@1e835da4: Query executed successfully...}}}
+
+cf logs TraversePathWeb 
+REPORT: 02/08/2015 03:08:37.122: requst-id-1438528117027-0.1524479647209308: : {TPath-TraversePathWeb{{TPath-GetUserDetailsSvc{TUserService.getUser~SUCCESS~0000~19~{TPath-MySQLDAO{MySQLDAO.executeQuery~SUCCESS~0000~19~}}}}{LogParams: {responseresult={result=[{city=hyd, name=raju, userid=1, email=raju@yahoo.com}], queryExecutionStatus=success, query=select * from users where email='raju@yahoo.com', connectionStatus=Connection Retrieved successfully, columnList=[userid, name, email, city], message=com.mysql.jdbc.JDBC4ResultSet@3245efd4: Query executed successfully...}}}TPathWeb.getUserDetails~SUCCESS~0000~75~}}
+
+
+
+
+
+
+
+
+
