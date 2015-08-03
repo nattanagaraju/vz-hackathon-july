@@ -31,7 +31,124 @@ cf logs TUserService
 cf logs TraversePathWeb 
 REPORT: 02/08/2015 03:08:37.122: requst-id-1438528117027-0.1524479647209308: : {TPath-TraversePathWeb{{TPath-GetUserDetailsSvc{TUserService.getUser~SUCCESS~0000~19~{TPath-MySQLDAO{MySQLDAO.executeQuery~SUCCESS~0000~19~}}}}{LogParams: {responseresult={result=[{city=hyd, name=raju, userid=1, email=raju@yahoo.com}], queryExecutionStatus=success, query=select * from users where email='raju@yahoo.com', connectionStatus=Connection Retrieved successfully, columnList=[userid, name, email, city], message=com.mysql.jdbc.JDBC4ResultSet@3245efd4: Query executed successfully...}}}TPathWeb.getUserDetails~SUCCESS~0000~75~}}
 
+https://travis-ci.org/
+https://console.run.pivotal.io
 
+
+app urls:
+	http://tuserservice.cfapps.io/db
+	http://tuserservice.cfapps.io/user/getUser?email=raju@yahoo.com
+	
+web urls:
+	http://tuserservice.cfapps.io/db
+	http://traversepathweb.cfapps.io/tweb
+
+tlogservice
+traversepathweb
+tuserservice
+
+
+
+
+http://localhost:8080/tuserservice/user/test
+
+http://traversepathweb.cfapps.io/user/test
+
+http://localhost:8080/tuserservice/db
+http://localhost:8080/tuserservice/user/getUser?email=raju22@yahoo.com
+http://tuserservice.cfapps.io/tuserservice/user/getUser?email=raju2@yahoo.com
+http://localhost:8080/tuserservice/user/getUserDetails?email=raju2@yahoo.com
+http://tuserservice.cfapps.io/db
+http://localhost:8080/traversepathweb/tweb
+
+cf login
+cf logs TUserService
+cf logs TUserService --recent
+restage: cf rg TUserService
+
+
+https://console.run.pivotal.io/organizations/651cb7d8-7655-493e-9422-c709bcfbc19d/spaces/bed4da8a-6aa3-4a43-8378-967e7460ffbd
+travis-ci
+https://magnum.travis-ci.com/profile/nattanagaraju
+https://travis-ci.org/nattanagaraju/vz-hackathon-july/settings
+http://docs.travis-ci.com/
+
+https://travis-ci.org/nattanagaraju/vz-hackathon-july
+
+
+
+testteam1pc	
+https://github-windows.s3.amazonaws.com/GitHubSetup.exe
+
+/home/travis/build/nattanagaraju/vz-hackathon-july/fax.war
+
+
+language: java
+script: ant build-war
+
+domain: cfapps.io
+
+
+language: java
+sudo: required
+script: ant build-war
+deploy:
+   edge: true
+   provider: cloudfoundry
+   username: natta_nagaraju@yahoo.co.in
+   password: nnr999789
+   api: https://api.run.pivotal.io
+   organization: vz-hackathon-july
+   space: development
+
+   ---
+applications:
+- name: vz-hackathon-july
+path: vz-hackathon-july.war
+   
+   
+   https://vz-hackathon-july.cfapps.io/
+   
+   
+   
+   
+   
+{
+  "jdbcUrl": "jdbc:mysql://b1ca12e92f18fc:c2d65a2b@us-cdbr-iron-east-02.cleardb.net:3306/ad_4da09c6f1711355",
+  "uri": "mysql://b1ca12e92f18fc:c2d65a2b@us-cdbr-iron-east-02.cleardb.net:3306/ad_4da09c6f1711355?reconnect=true",
+  "name": "ad_4da09c6f1711355",
+  "hostname": "us-cdbr-iron-east-02.cleardb.net",
+  "port": "3306",
+  "username": "b1ca12e92f18fc",
+  "password": "c2d65a2b"
+}
+
+mysql -u b1ca12e92f18fc -h us-cdbr-iron-east-02.cleardb.net -p c2d65a2b
+create database tpath;
+show tables;
+
+CREATE TABLE users
+ (
+ userid int,
+ name varchar(255),
+ email varchar(255),
+ city varchar(255)
+ ); 
+ 
+ 
+ insert into users values(1, 'raju', 'natta', 'raju@yahoo.com', 'hyd');
+ 
+ 
+http://tuserservice.cfapps.io/db
+http://traversepathweb.cfapps.io/tweb 
+ 
+cf logs TUserService
+ 2015-08-02T07:51:53.12-0700 [App/0]      ERR REPORT: 02/08/2015 02:51:53.121: requst-id-1438527112847-0.6558462886942875: : {TPath-DBQueryExecutor{DBService.submitQuery~SUCCESS~0000~271~{TPath-MySQLDAO{MySQLDAO.executeQuery~SUCCESS~0000~269~}}}}{LogParams: {result=[{Tables_in_ad_4da09c6f1711355=users}], queryExecutionStatus=success, query=show tables;, connectionStatus=Connection Retrieved successfully, columnList=[Tables_in_ad_4da09c6f1711355], message=com.mysql.jdbc.JDBC4ResultSet@4a58553b: Query executed successfully...}}
+ REPORT: 02/08/2015 03:13:46.970: requst-id-1438528426935-0.6597215425663784: : {TPath-GetUserDetailsSvc{TUserService.getUser~SUCCESS~0000~19~{TPath-MySQLDAO{MySQLDAO.executeQuery~SUCCESS~0000~19~}}}}{LogParams: {responseresult={result=[{city=hyd, name=raju, userid=1, email=raju@yahoo.com}], queryExecutionStatus=success, query=select * from users where email='raju@yahoo.com', connectionStatus=Connection Retrieved successfully, columnList=[userid, name, email, city], message=com.mysql.jdbc.JDBC4ResultSet@1e835da4: Query executed successfully...}}}
+
+cf logs TraversePathWeb 
+REPORT: 02/08/2015 03:08:37.122: requst-id-1438528117027-0.1524479647209308: : {TPath-TraversePathWeb{{TPath-GetUserDetailsSvc{TUserService.getUser~SUCCESS~0000~19~{TPath-MySQLDAO{MySQLDAO.executeQuery~SUCCESS~0000~19~}}}}{LogParams: {responseresult={result=[{city=hyd, name=raju, userid=1, email=raju@yahoo.com}], queryExecutionStatus=success, query=select * from users where email='raju@yahoo.com', connectionStatus=Connection Retrieved successfully, columnList=[userid, name, email, city], message=com.mysql.jdbc.JDBC4ResultSet@3245efd4: Query executed successfully...}}}TPathWeb.getUserDetails~SUCCESS~0000~75~}}
+ 
 
 
 
