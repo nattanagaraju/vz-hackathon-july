@@ -152,7 +152,8 @@ REPORT: 02/08/2015 03:08:37.122: requst-id-1438528117027-0.1524479647209308: : {
 
 
 
-
+My Personal Ref:
+Apache Solar: http://stackoverflow.com/questions/737275/comparison-of-full-text-search-engine-lucene-sphinx-postgresql-mysql
 
 
 
